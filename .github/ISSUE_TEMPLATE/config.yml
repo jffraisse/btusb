@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Upstream linux-bluetooth
+    url: https://linux-bluetooth.org/
+    about: Bugs in the stock driver belong upstream (vger.kernel.org, mailing list linux-bluetooth)

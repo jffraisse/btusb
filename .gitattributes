@@ -1,0 +1,16 @@
+# Normalize line endings in the repository (LF in git, LF on checkout).
+* text=auto eol=lf
+
+# Never treat the driver sources as binary.
+*.c text eol=lf
+*.h text eol=lf
+*.conf text eol=lf
+*.md text eol=lf
+Makefile text eol=lf
+
+# Shell scripts must keep LF and stay executable on checkout.
+*.sh text eol=lf
+
+# No binary artifacts should ever be committed.
+*.ko binary
+*.o binary

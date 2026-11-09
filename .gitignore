@@ -1,0 +1,28 @@
+# out-of-tree kbuild
+*.o
+*.o.d
+*.ko
+*.ko.zst
+*.mod
+*.mod.c
+*.mod.o
+.*.cmd
+.module-common.o
+modules.order
+Module.symvers
+
+# local backups / experiments (never publish)
+*.stock*
+*.ubuntu-*
+*.pre-fix
+*.reconstructed
+*.baseline
+edits.*
+*.json
+v*.c
+stable*.c
+
+# editor / OS
+*~
+*.swp
+.DS_Store

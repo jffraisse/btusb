@@ -1,0 +1,19 @@
+name: Question / working setup
+description: Not a bug — how something behaves on your clone, or a variant that works
+labels: ["question"]
+body:
+  - type: textarea
+    attributes:
+      label: What you are trying to do
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Dongle + kernel
+      description: `lsusb -v -d <vid>:<pid>`, `uname -r`, distribution
+      render: text
+
+  - type: textarea
+    attributes:
+      label: Notes
